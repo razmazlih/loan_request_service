@@ -53,15 +53,15 @@ pip install -r requirements.txt
 
 ```
 loan-evaluation-service/
-├── main.py                   # Entry point: orchestrates loading, processing, and output
-├── processor.py              # Contains process_loan_data() for core logic
-├── load_data.py              # Utility to read CSV data into pandas
-├── user_information.py       # Gathers and computes individual user metrics
-├── loan_information.py       # Scoring algorithm and risk assessment
-├── loan_data.csv             # Sample input data file (CSV format)
+├── main.py                     # Entry point: orchestrates loading, processing, and output
+├── processor.py                # Contains process_loan_data() for core logic
+├── load_data.py                # Utility to read CSV data into pandas
+├── user_information.py         # Gathers and computes individual user metrics
+├── loan_information.py         # Scoring algorithm and risk assessment
+├── loan_data.csv               # Sample input data file (CSV format)
 ├── loan_evaluation_results.csv # Example output file (after running main.py)
-├── requirements.txt          # Python dependencies
-└── README.md                 # Project documentation (this file)
+├── requirements.txt            # Python dependencies
+└── README.md                   # Project documentation (this file)
 ```
 
 ## Usage
