@@ -33,12 +33,18 @@ A Python-based service for processing loan applications from a CSV data file. It
 # Clone the repository
 git clone https://github.com/razmazlih/loan_request_service.git
 cd loan-evaluation-service
-
+```
+```bash
 # Create and activate a virtual environment
 python -m venv venv
+```
+```bash
 source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate         # Windows
-
+```
+```bash
+source venv\Scripts\activate         # Windows
+```
+```bash
 # Install dependencies
 pip install -r requirements.txt
 ```
